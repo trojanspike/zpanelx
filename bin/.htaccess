@@ -3,3 +3,6 @@ Deny from all
 <FilesMatch "api.php">
   Allow from all
 </FilesMatch>
+<FilesMatch "apiv2.php">
+  Allow from all
+</FilesMatch>
